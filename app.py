@@ -41,3 +41,16 @@ def buscar_por_rol(posicion):
             resultados.append(jugador)
 
     return jsonify(resultados)
+
+@app.route("/jugadores/equipos/<equipo>")
+def buscar_por_equipo(equipo):
+
+    resultados = []
+
+    for jugador in jugadores:
+
+        if equipo.lower() in jugador["equipo"].lower():
+
+            resultados.append(jugador)
+
+    return jsonify(resultados)
