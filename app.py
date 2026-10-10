@@ -54,3 +54,16 @@ def buscar_por_equipo(equipo):
             resultados.append(jugador)
 
     return jsonify(resultados)
+
+@app.route("/jugadores/search/<nombre>")
+def buscar_por_nombre(nombre):
+
+    resultados = []
+
+    for jugador in jugadores:
+
+        if nombre.lower() in jugador["nombre"].lower():
+
+            resultados.append(jugador)
+
+    return jsonify(resultados)
