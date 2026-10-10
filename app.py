@@ -28,3 +28,16 @@ def buscar_por_habilidad(habilidades):
             resultados.append(jugador)
 
     return jsonify(resultados)
+
+@app.route("/jugadores/posicion/<posicion>")
+def buscar_por_rol(posicion):
+
+    resultados = []
+
+    for jugador in jugadores:
+
+        if posicion.lower() in jugador["posicion"].lower():
+
+            resultados.append(jugador)
+
+    return jsonify(resultados)
