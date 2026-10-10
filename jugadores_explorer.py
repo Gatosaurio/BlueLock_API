@@ -55,4 +55,25 @@ def jugador_aleatorio():
             "676",
             "No se pudo obtener un jugador aleatorie."
         )
+# ==========================================
+# MOSTRAR INFORMACIÓN DE LA VISION
+# ==========================================
+
+def mostrar_jugador(jugador):
+
+    nombre.config(
+        text=jugador["nombre"]
+    )
+
+    equipos.config(
+        text=f"Equipo: {jugador["equipo"]}"
+    )
+
+    posicion.config(
+        text=f"Posición: {jugador["posicion"]}"
+    )
+
+    habilidades.config(
+        text=f"Habilidades: {', '.join(jugador["habilidades"])}"
+    )
 
