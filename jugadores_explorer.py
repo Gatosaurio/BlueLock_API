@@ -33,4 +33,26 @@ respuesta = requests.get(
         messagebox.showerror(
             "67",
             "No se encontró ningun jugador, mediocre."
+        )# ==========================================
+# VISION ALEATORIA
+# ==========================================
+
+def jugador_aleatorio():
+
+    respuesta = requests.get(
+        f"{API_URL}/jugadores/random"
+    )
+
+    if respuesta.status_code == 200:
+
+        jugador = respuesta.json()
+
+        mostrar_jugador(jugador)
+
+    else:
+
+        messagebox.showerror(
+            "676",
+            "No se pudo obtener un jugador aleatorie."
         )
+
