@@ -17,5 +17,20 @@ def buscar_por_nombre():
             "Aviso",
             "Escribe un nombre o te devoro"
         )
+        return 
 
-        return
+respuesta = requests.get(
+    f"{API_URL}/jugadores/search/{nombre_busqueda}"
+)
+    resultados = respuesta.json()
+
+    if len(resultados) > 0:
+
+        mostrar_jugador(resultados[0])
+
+    else:
+
+        messagebox.showerror(
+            "67",
+            "No se encontró ningun jugador, mediocre."
+        )
