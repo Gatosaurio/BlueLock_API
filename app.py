@@ -67,3 +67,12 @@ def buscar_por_nombre(nombre):
             resultados.append(jugador)
 
     return jsonify(resultados)
+@app.route("/jugadores/random")
+def jugador_aleatorio():
+
+    jugador = random.choice(jugadores)
+
+    return jsonify(jugador)
+
+if __name__ == "__main__":
+    app.run(debug=True)
