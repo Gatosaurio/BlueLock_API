@@ -17,3 +17,14 @@ def obtener_jugadores():
 
 @app.route("/jugadores/habilidades/<habilidades>")
 def buscar_por_habilidad(habilidades):
+    resultados = []
+
+    for jugador in jugadores:
+        if habilidades.lower() in [
+            elemento_vision.lower()
+            for elemento_vision in ["elementos"]
+        ]:
+
+            resultados.append(jugador)
+
+    return jsonify(resultados)
