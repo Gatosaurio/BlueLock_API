@@ -76,4 +76,15 @@ def mostrar_jugador(jugador):
     habilidades.config(
         text=f"Habilidades: {', '.join(jugador["habilidades"])}"
     )
+# ==========================================
+# CREAR VENTANA
+# ==========================================
+
+ventana = tk.Tk()
+
+ventana.title(
+    "Diamantes bien brutos - Vision Explorer"
+)
+
+ventana.geometry("500x520")
 
