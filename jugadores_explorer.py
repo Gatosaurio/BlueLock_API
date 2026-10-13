@@ -99,3 +99,28 @@ titulo = tk.Label(
 )
 
 titulo.pack(pady=20)
+# ==========================================
+# BÚSQUEDA POR NOMBRE
+# ==========================================
+
+tk.Label(
+    ventana,
+    text="Buscar por nombre:"
+).pack()
+
+
+entrada_nombre = tk.Entry(
+    ventana,
+    font=("Arial", 14)
+)
+
+entrada_nombre.pack(pady=5)
+
+
+boton_nombre = tk.Button(
+    ventana,
+    text="Buscar nombre",
+    command=buscar_por_nombre
+)
+
+boton_nombre.pack(pady=10)
