@@ -88,3 +88,14 @@ ventana.title(
 
 ventana.geometry("500x520")
 
+# ==========================================
+# TÍTULO
+# ==========================================
+
+titulo = tk.Label(
+    ventana,
+    text="JUGADORES EXPLORER",
+    font=("Arial", 22, "bold")
+)
+
+titulo.pack(pady=20)
