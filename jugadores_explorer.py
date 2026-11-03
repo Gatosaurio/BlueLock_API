@@ -171,3 +171,8 @@ habilidades = tk.Label(
 
 habilidades.pack()
 
+# ==========================================
+# EJECUTAR APLICACIÓN
+# ==========================================
+
+ventana.mainloop()
