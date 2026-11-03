@@ -136,3 +136,38 @@ boton_random = tk.Button(
 )
 
 boton_random.pack(pady=15)
+# ==========================================
+# INFORMACIÓN DEL JUGADOR
+# ==========================================
+
+nombre = tk.Label(
+    ventana,
+    text="Nombre",
+    font=("Arial", 18, "bold")
+)
+
+nombre.pack(pady=15)
+
+
+equipos = tk.Label(
+    ventana,
+    text="Origen:"
+)
+
+equipos.pack()
+
+posicion = tk.Label(
+    ventana,
+    text="Posición:"
+)
+
+posicion.pack()
+
+
+habilidades = tk.Label(
+    ventana,
+    text="Elementos:"
+)
+
+habilidades.pack()
+
