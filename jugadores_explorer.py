@@ -124,3 +124,15 @@ boton_nombre = tk.Button(
 )
 
 boton_nombre.pack(pady=10)
+# ==========================================
+# VISION ALEATORIA
+# ==========================================
+
+boton_random = tk.Button(
+    ventana,
+    text="🎲 Jugador aleatorio",
+    command=jugador_aleatorio,
+    font=("Arial", 12, "bold")
+)
+
+boton_random.pack(pady=15)

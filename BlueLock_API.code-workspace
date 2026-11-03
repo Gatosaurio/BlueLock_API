@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"python.analysis.extraCommitChars": true,
+		"python.analysis.extraPaths": [
+			""
+		],
+		"python.analysis.includeExtraPathSymbolsInSymbolSearch": true,
+		"python.analysis.addExtraPathsForPythonProjects": true
+	}
+}
