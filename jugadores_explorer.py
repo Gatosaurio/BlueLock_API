@@ -2,7 +2,7 @@ import requests
 import tkinter as tk
 from tkinter import messagebox
 
-API_URL = "http://127.0.0.1:5000"
+API_URL = "https://bluelock-api-gmy1.onrender.com/jugadores"
 
 # ==========================================
 # BUSCAR VISION POR NOMBRE
