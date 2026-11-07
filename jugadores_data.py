@@ -65,3 +65,14 @@ jugadores = [
             "Finalización"
         ]
     },
+    {
+        "no": 20,
+        "nombre": "Alexis Ness",
+        "equipo": "Bastard Munchen",
+        "posicion": "Mediocampista",
+        "habilidades": [
+            "Pases precisos",
+            "Control del balón",
+            "Asistencia"
+        ]
+    },
