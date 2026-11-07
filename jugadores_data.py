@@ -109,3 +109,14 @@ jugadores = [
             "Creatividad"
         ]
     },
+    {
+        "no": 7,
+        "nombre": "Kurona Ranze",
+        "equipo": "Bastard Munchen",
+        "posicion": "Lateral",
+        "habilidades": [
+            "Velocidad",
+            "Pases rápidos",
+            "Coordinación"
+        ]
+    },
