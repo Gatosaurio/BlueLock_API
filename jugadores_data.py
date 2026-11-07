@@ -10,3 +10,14 @@ jugadores = [
             "Tiro directo"
         ]
     },
+    {
+        "no": 8,
+        "nombre": "Bachira Meguru",
+        "equipo": "FC Barcha",
+        "posicion": "Delantero",
+        "habilidades": [
+            "Regate",
+            "Creatividad",
+            "Elasticidad"
+        ]
+    },
