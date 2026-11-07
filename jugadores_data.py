@@ -153,3 +153,14 @@ jugadores = [
             "Creatividad"
         ]
     },
+    {
+        "no": 4,
+        "nombre": "Chigiri Hyoma",
+        "equipo": "Manshine City",
+        "posicion": "Extremo",
+        "habilidades": [
+            "Velocidad",
+            "Regate",
+            "Aceleración"
+        ]
+    },
