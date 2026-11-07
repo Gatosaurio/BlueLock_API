@@ -131,3 +131,14 @@ jugadores = [
             "Visión de juego"
         ]
     },
+    {
+        "no": 10,
+        "nombre": "Julian Loki",
+        "equipo": "Paris X Gen",
+        "posicion": "Delantero",
+        "habilidades": [
+            "Velocidad extrema",
+            "Regate",
+            "Finalización"
+        ]
+    },
