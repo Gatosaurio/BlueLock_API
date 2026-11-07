@@ -21,6 +21,7 @@ HTTP que devuelven respuestas JSON. Creado de fan para fans :V, con  bastos cono
 
 ## Endpoints
 | Método | Ruta | Descripción |
+
 |Nombre|URL/jugadores/search/{nombre}|Va a buscar el nombre más parecido al de la variable🗣️|
 |Aleatorio|URL/jugadores/random|Literalmente va a poner a un jugador random XD|
 |Aleatorio|URL/jugadores/random|Literalmente va a poner a un jugador random XD|
