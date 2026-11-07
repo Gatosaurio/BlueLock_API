@@ -43,3 +43,14 @@ jugadores = [
             "Tiro preciso"
         ]
     },
+    {
+        "no": 9,
+        "nombre": "Shidou Ryusei",
+        "equipo": "Paris X Gen",
+        "posicion": "Delantero",
+        "habilidades": [
+            "Instinto goleador",
+            "Acrobacias",
+            "Conciencia espacial"
+        ]
+    },
