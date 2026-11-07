@@ -32,3 +32,14 @@ jugadores = [
             "Control del balón"
         ]
     },
+    {
+        "no": 10,
+        "nombre": "Rin Itoshi",
+        "equipo": "Paris X Gen",
+        "posicion": "Delantero",
+        "habilidades": [
+            "Visión periférica",
+            "Control del balón",
+            "Tiro preciso"
+        ]
+    },
