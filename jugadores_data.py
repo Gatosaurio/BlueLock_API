@@ -87,3 +87,14 @@ jugadores = [
             "Regate"
         ]
     },
+    {
+        "no": 14,
+        "nombre": "Reo Mikage",
+        "equipo": "Manshine City",
+        "posicion": "Lateral",
+        "habilidades": [
+            "Copia",
+            "Pases",
+            "Adaptabilidad"
+        ]
+    },
