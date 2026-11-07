@@ -54,3 +54,14 @@ jugadores = [
             "Conciencia espacial"
         ]
     },
+    {
+        "no": 10,
+        "nombre": "Michael Kaiser",
+        "equipo": "Bastard Munchen",
+        "posicion": "Delantero",
+        "habilidades": [
+            "Kaiser Impact",
+            "Visión periférica",
+            "Finalización"
+        ]
+    },
