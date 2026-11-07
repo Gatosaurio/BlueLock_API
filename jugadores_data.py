@@ -98,3 +98,14 @@ jugadores = [
             "Adaptabilidad"
         ]
     },
+    {
+        "no": 11,
+        "nombre": "Seishiro Nagi",
+        "equipo": "Manshine City",
+        "posicion": "Delantero",
+        "habilidades": [
+            "Control perfecto",
+            "Trapping",
+            "Creatividad"
+        ]
+    },
