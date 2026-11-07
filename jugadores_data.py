@@ -120,3 +120,14 @@ jugadores = [
             "Coordinación"
         ]
     },
+    {
+        "no": 8,
+        "nombre": "Hugo Vivian",
+        "equipo": "Francia",
+        "posicion": "Mediocampista",
+        "habilidades": [
+            "Pases",
+            "Control del balón",
+            "Visión de juego"
+        ]
+    },
