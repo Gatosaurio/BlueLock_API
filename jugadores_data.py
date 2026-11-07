@@ -142,3 +142,14 @@ jugadores = [
             "Finalización"
         ]
     },
+    {
+        "no": 6,
+        "nombre": "Charles Chevalier",
+        "equipo": "Paris X Gen",
+        "posicion": "Mediocampista",
+        "habilidades": [
+            "Pases",
+            "Visión de juego",
+            "Creatividad"
+        ]
+    },
