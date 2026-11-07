@@ -1,13 +1,14 @@
 # Blue Lock API
 
 API desarrollada con Python y Flask para consultar información
-relacionada con personajes del universo Blue Lock.
+relacionada con personajes del universo Blue Lock. Lo desplegue en render kmo una pagina web asi bn pro. y es publica
 
 ## Tecnologías
 - Python
 - Flask
 - JSON
 - Git y GitHub
+- Render (Web Service)
 
 ## Descripción
 Este proyecto permite consultar información mediante endpoints
@@ -27,6 +28,8 @@ HTTP que devuelven respuestas JSON. Creado de fan para fans :V, con  bastos cono
 |Aleatorio|URL/jugadores/random|Literalmente va a poner a un jugador random XD|
 | GET | / | Información general |
 | GET | /players | Lista de personajes |
+
+# 7 de novienbre 2026!!!, ya esta terminado y funcionando, drisfruta!! 
 
 ## Nombre del fan de Lingyang
 Gatosaurio.
