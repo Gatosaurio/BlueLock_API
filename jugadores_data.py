@@ -76,3 +76,14 @@ jugadores = [
             "Asistencia"
         ]
     },
+    {
+        "no": 13,
+        "nombre": "Barou Shoei",
+        "equipo": "Ubers",
+        "posicion": "Delantero",
+        "habilidades": [
+            "Tiro potente",
+            "Depredador",
+            "Regate"
+        ]
+    },
