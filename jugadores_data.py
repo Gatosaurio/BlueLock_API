@@ -164,3 +164,15 @@ jugadores = [
             "Aceleración"
         ]
     },
+    {
+        "no": 9,
+        "nombre": "Kunigami Rensuke",
+        "equipo": "Bastard Munchen",
+        "posicion": "Delantero",
+        "habilidades": [
+            "Fuerza física",
+            "Tiro potente",
+            "Resistencia"
+        ]
+    }
+]
