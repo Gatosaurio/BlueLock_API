@@ -19,9 +19,9 @@ def buscar_por_nombre():
         )
         return 
 
-respuesta = requests.get(
-    f"{API_URL}/jugadores/search/{nombre_busqueda}"
-)
+    respuesta = requests.get(
+        f"{API_URL}/jugadores/search/{nombre_busqueda}"
+    )
     resultados = respuesta.json()
 
     if len(resultados) > 0:
@@ -33,7 +33,8 @@ respuesta = requests.get(
         messagebox.showerror(
             "67",
             "No se encontró ningun jugador, mediocre."
-        )# ==========================================
+        )
+# ==========================================
 # VISION ALEATORIA
 # ==========================================
 
