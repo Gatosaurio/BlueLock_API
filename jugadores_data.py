@@ -21,3 +21,14 @@ jugadores = [
             "Elasticidad"
         ]
     },
+        {
+        "no": 10,
+        "nombre": "Sae Itoshi",
+        "equipo": "Real Madrid",
+        "posicion": "Mediocampista",
+        "habilidades": [
+            "Visión de juego",
+            "Pases precisos",
+            "Control del balón"
+        ]
+    },
