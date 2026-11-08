@@ -284,5 +284,18 @@ jugadores = [
             "Adaptabilidad",
             "Liderazgo"
         ]
+    },
+    {
+        "no": 11,
+        "nombre": "Teddy Knight",
+        "equipo": "Inglaterra U-20",
+        "posicion": "Extremo izquierdo",
+        "habilidades": [
+            "Regate",
+            "Agilidad",
+            "Velocidad",
+            "Flow State",
+            "Predator Eye"
+        ]
     }
 ]
