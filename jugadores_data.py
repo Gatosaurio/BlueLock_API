@@ -174,5 +174,115 @@ jugadores = [
             "Tiro potente",
             "Resistencia"
         ]
+    },
+    {
+    "no": 25,
+    "nombre": "Niko Ikki",
+    "equipo": "Ubers",
+    "posicion": "Defensa",
+    "habilidades": [
+        "Visión de juego",
+        "Intercepciones",
+        "Análisis táctico"
+    ]
+},
+{
+    "no": 2,
+    "nombre": "Don Lorenzo",
+    "equipo": "Ubers",
+    "posicion": "Defensa",
+    "habilidades": [
+        "Defensa impredecible",
+        "Regate",
+        "Marcaje individual"
+    ]
+},
+{
+    "no": 7,
+    "nombre": "Chris Prince",
+    "equipo": "Manshine City",
+    "posicion": "Delantero",
+    "habilidades": [
+        "Físico excepcional",
+        "Control corporal",
+        "Tiro potente"
+    ]
+    },
+    {
+        "no": 23,
+        "nombre": "Oliver Aiku",
+        "equipo": "Ubers",
+        "posicion": "Defensa",
+        "habilidades": [
+            "Visión defensiva",
+            "Marcaje",
+            "Anticipación"
+        ]
+    },
+    {
+        "no": 23,
+        "nombre": "Hiori Yo",
+        "equipo": "Bastard Munchen",
+        "posicion": "Centrocampista",
+        "habilidades": [
+            "Pases precisos",
+            "Visión de juego",
+            "Control del balón"
+        ]
+    },
+    {
+        "no": 27,
+        "nombre": "Karasu Tabito",
+        "equipo": "Paris X Gen",
+        "posicion": "Centrocampista",
+        "habilidades": [
+            "Análisis del rival",
+            "Control del balón",
+            "Juego estratégico"
+        ]
+    },
+    {
+        "no": 1,
+        "nombre": "Gagamaru Gin",
+        "equipo": "Bastard Munchen",
+        "posicion": "Portero",
+        "habilidades": [
+            "Reflejos extraordinarios",
+            "Flexibilidad",
+            "Instinto natural"
+        ]
+    },
+    {
+        "no": 76,
+        "nombre": "Igarashi Gurimu",
+        "equipo": "Bastard Munchen",
+        "posicion": "Delantero",
+        "habilidades": [
+            "Juego físico",
+            "Provocación de faltas",
+            "Resistencia"
+        ]
+    },
+    {
+        "no": 9,
+        "nombre": "Noel Noa",
+        "equipo": "Bastard Munchen",
+        "posicion": "Delantero",
+        "habilidades": [
+            "Ambidestreza",
+            "Precisión de tiro",
+            "Equilibrio físico"
+        ]
+    },
+    {
+        "no": 10,
+        "nombre": "Marc Snuffy",
+        "equipo": "Ubers",
+        "posicion": "Delantero",
+        "habilidades": [
+            "Inteligencia táctica",
+            "Adaptabilidad",
+            "Liderazgo"
+        ]
     }
 ]
