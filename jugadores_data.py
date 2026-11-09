@@ -520,5 +520,79 @@ jugadores = [
             "Predicción",
             "Análisis del rival"
         ]
-    }
+    },
+        [
+        {
+            "no": 17,
+            "nombre": "Shuto Sendou",
+            "equipo": "Japón Sub-20",
+            "posicion": "Delantero centro",
+            "habilidades": [
+                "Definición",
+                "Juego aéreo",
+                "Posicionamiento ofensivo",
+                "Instinto goleador"
+            ]
+        },
+        {
+            "no": 45,
+            "nombre": "Innocent Onazi",
+            "equipo": "Nigeria Sub-20",
+            "posicion": "Delantero centro",
+            "habilidades": [
+                "Potencia de salto",
+                "Remates en el aire",
+                "Voleas",
+                "Juego aéreo"
+            ]
+        },
+        {
+            "no": 7,
+            "nombre": "Camus",
+            "equipo": "Francia Sub-20",
+            "posicion": "Extremo derecho",
+            "habilidades": [
+                "Velocidad",
+                "Aceleración",
+                "Desborde",
+                "Ataques por las bandas"
+            ]
+        },
+        {
+            "no": None,
+            "nombre": "Rodin",
+            "equipo": "Francia Sub-20",
+            "posicion": "Entrenador",
+            "habilidades": [
+                "Dirección técnica",
+                "Estrategia",
+                "Gestión de jugadores",
+                "Adaptación táctica"
+            ]
+        },
+        {
+            "no": None,
+            "nombre": "Fox",
+            "equipo": "Inglaterra Sub-20",
+            "posicion": "Entrenador",
+            "habilidades": [
+                "Dirección táctica",
+                "Análisis del juego",
+                "Control estratégico",
+                "Coordinación mediante señales"
+            ]
+        },
+        {
+            "no": None,
+            "nombre": "Gambari",
+            "equipo": "Nigeria Sub-20",
+            "posicion": "Entrenador",
+            "habilidades": [
+                "Dirección técnica",
+                "Motivación del equipo",
+                "Lectura del rival",
+                "Liderazgo"
+            ]
+        }
+    ]
 ]
