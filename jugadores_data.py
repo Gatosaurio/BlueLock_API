@@ -322,5 +322,71 @@ jugadores = [
         "Ojo del Depredador",
         "Estado de Flow"
         ]
+    },
+    {
+    "no": 13,
+    "nombre": "Otoya Eita",
+    "equipo": "FC Barcha",
+    "posicion": "Extremo derecho",
+    "habilidades": [
+        "Movimiento sin balón",
+        "Velocidad",
+        "Infiltración sigilosa"
+    ]
+    },
+    {
+        "no": 29,
+        "nombre": "Zantetsu Tsurugi",
+        "equipo": "Paris X Gen",
+        "posicion": "Extremo",
+        "habilidades": [
+            "Aceleración explosiva",
+            "Tiro con pierna izquierda",
+            "Regate a alta velocidad"
+        ]
+    },
+    {
+        "no": 4,
+        "nombre": "Pablo Cavasoz",
+        "equipo": "Argentina (World Five)",
+        "posicion": "Delantero",
+        "habilidades": [
+            "Precisión de tiro",
+            "Metavisión",
+            "Tiros libres"
+        ]
+    },
+    {
+        "no": 17,
+        "nombre": "Aryu Jyubei",
+        "equipo": "Ubers",
+        "posicion": "Defensa central",
+        "habilidades": [
+            "Salto excepcional",
+            "Alcance extraordinario",
+            "Juego aéreo"
+        ]
+    },
+    {
+        "no": 22,
+        "nombre": "Raichi Jingo",
+        "equipo": "Bastard Munchen",
+        "posicion": "Centrocampista defensivo",
+        "habilidades": [
+            "Resistencia física",
+            "Marcaje individual",
+            "Fuerza física"
+        ]
+    },
+    {
+        "no": 69,
+        "nombre": "Kiyora Jin",
+        "equipo": "Bastard Munchen",
+        "posicion": "Lateral izquierdo",
+        "habilidades": [
+            "Equilibrio corporal",
+            "Regate acrobático",
+            "Pases rasantes precisos"
+        ]
     }
 ]
