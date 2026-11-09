@@ -308,5 +308,19 @@ jugadores = [
         "Regate y conducción",
         "Metavision"
         ]
+    },
+    {
+    "no": 15,
+    "nombre": "Yukimiya Kenyu",
+    "equipo": "Bastard Munchen",
+    "posicion": "Extremo izquierdo",
+    "habilidades": [
+        "Regate 1 vs 1",
+        "Velocidad explosiva",
+        "Gyro Shot",
+        "Sword Screw",
+        "Ojo del Depredador",
+        "Estado de Flow"
+        ]
     }
 ]
