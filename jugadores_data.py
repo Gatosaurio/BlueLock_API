@@ -388,5 +388,137 @@ jugadores = [
             "Regate acrobático",
             "Pases rasantes precisos"
         ]
+    },
+    {
+    "no": 50,
+    "nombre": "Gen Fukaku",
+    "equipo": "Ubers",
+    "posicion": "Portero",
+    "habilidades": [
+        "Reflejos",
+        "Posicionamiento defensivo",
+        "Despejes"
+    ]
+},
+{
+    "no": 77,
+    "nombre": "Nijiro Nanase",
+    "equipo": "Paris X Gen",
+    "posicion": "Delantero",
+    "habilidades": [
+        "Ambidestreza",
+        "Movimiento sin balón",
+        "Adaptabilidad"
+    ]
+    },
+    {
+        "no": 9,
+        "nombre": "Agi",
+        "equipo": "Manshine City",
+        "posicion": "Delantero",
+        "habilidades": [
+            "Salto vertical",
+            "Alcance extraordinario",
+            "Superioridad física"
+        ]
+    },
+    {
+        "no": 87,
+        "nombre": "Lavinho",
+        "equipo": "FC Barcha",
+        "posicion": "Delantero",
+        "habilidades": [
+            "Regate perfecto",
+            "Creatividad",
+            "Estado de Flow"
+        ]
+    },
+    {
+        "no": 19,
+        "nombre": "Bunny Iglesias",
+        "equipo": "FC Barcha",
+        "posicion": "Delantero",
+        "habilidades": [
+            "Potencia de salto",
+            "Volea aérea",
+            "Tijera acrobática"
+        ]
+    },
+    {
+        "no": 5,
+        "nombre": "Benedikt Grim",
+        "equipo": "Bastard Munchen",
+        "posicion": "Extremo izquierdo",
+        "habilidades": [
+            "Fuerza física",
+            "Regate",
+            "Centros precisos"
+        ]
+    },
+    {
+        "no": 13,
+        "nombre": "Erik Gesner",
+        "equipo": "Bastard Munchen",
+        "posicion": "Mediocampista",
+        "habilidades": [
+            "Control del balón",
+            "Recepción",
+            "Regate"
+        ]
+    },
+    {
+        "no": 17,
+        "nombre": "Jyubei Aryu",
+        "equipo": "Ubers",
+        "posicion": "Defensa central",
+        "habilidades": [
+            "Salto excepcional",
+            "Alcance extraordinario",
+            "Juego aéreo"
+        ]
+    },
+    {
+        "no": 20,
+        "nombre": "Aoshi Tokimitsu",
+        "equipo": "Paris X Gen",
+        "posicion": "Centrocampista",
+        "habilidades": [
+            "Resistencia física",
+            "Agilidad",
+            "Fuerza física"
+        ]
+    },
+    {
+        "no": 5,
+        "nombre": "Drago",
+        "equipo": "Ubers",
+        "posicion": "Defensa",
+        "habilidades": [
+            "Marcaje",
+            "Fuerza física",
+            "Juego defensivo"
+        ]
+    },
+    {
+        "no": 10,
+        "nombre": "Achanpong",
+        "equipo": "Inglaterra U-20",
+        "posicion": "Mediocampista ofensivo",
+        "habilidades": [
+            "Pases precisos",
+            "Distribución del balón",
+            "Creación de juego"
+        ]
+    },
+    {
+        "no": 17,
+        "nombre": "Reiji Hiiragi",
+        "equipo": "Manshine City",
+        "posicion": "Delantero",
+        "habilidades": [
+            "Control del balón",
+            "Predicción",
+            "Análisis del rival"
+        ]
     }
 ]
