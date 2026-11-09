@@ -306,10 +306,7 @@ jugadores = [
         "habilidades": [
         "Visión de juego",
         "Regate y conducción",
-        "Control orientado",
-        "Pases filtrados",
-        "Juego bajo presión",
-        "Lectura táctica"
+        "Metavision"
         ]
     }
 ]
