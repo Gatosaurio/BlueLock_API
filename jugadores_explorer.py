@@ -9,7 +9,7 @@ API_URL = "https://bluelock-api-gmy1.onrender.com"
 # ==========================================
 def buscar_por_nombre():
 
-    nombre_busqueda = entrada_nombre.get()
+    nombre_busqueda = entrada_nombre.get().strip()
 
     if nombre_busqueda == "":
 
@@ -19,9 +19,15 @@ def buscar_por_nombre():
         )
         return 
 
-    respuesta = requests.get(
-        f"{API_URL}/jugadores/search/{nombre_busqueda}"
+    try:
+        respuesta = requests.get(
+        f"{API_URL}/jugadores/search/{nombre_busqueda}",
+        timeout=30
     )
+
+    print("Código:", respuesta.status_code)
+    print("Respuesta:", respuesta.text)
+    respuesta.raise_for_status()
     resultados = respuesta.json()
 
     if len(resultados) > 0:
@@ -34,27 +40,40 @@ def buscar_por_nombre():
             "67",
             "No se encontró ningun jugador, mediocre."
         )
+    except requests.exceptions.RequestException as error:
+        messagebox.showerror(
+            "Error de conexión",
+            f"No se pudo conectar con la API:\n{error}"
+        )
+
+    except requests.exceptions.JSONDecodeError:
+        messagebox.showerror(
+            "Error",
+            "La API no devolvió un JSON válido."
+        )
 # ==========================================
 # VISION ALEATORIA
 # ==========================================
 
 def jugador_aleatorio():
-
-    respuesta = requests.get(
-        f"{API_URL}/jugadores/random"
-    )
-
-    if respuesta.status_code == 200:
-
+    try:
+        respuesta = requests.get(
+            f"{API_URL}/jugadores/random",
+            timeout=30
+        )
+        respuesta.raise_for_status()
         jugador = respuesta.json()
-
         mostrar_jugador(jugador)
-
-    else:
-
+    except requests.exceptions.RequestException as error:
         messagebox.showerror(
-            "676",
-            "No se pudo obtener un jugador aleatorie."
+            "Error",
+            f"No se pudo obtener el jugador:\n{error}"
+        )
+
+    except requests.exceptions.JSONDecodeError:
+        messagebox.showerror(
+            "6767",
+            "No se pudo obtener en jugador alatorie"
         )
 # ==========================================
 # MOSTRAR INFORMACIÓN DE LA VISION
