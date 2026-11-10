@@ -25,8 +25,8 @@ def buscar_por_nombre():
         timeout=30
     )
 
-    print("Código:", respuesta.status_code)
-    print("Respuesta:", respuesta.text)
+        print("Código:", respuesta.status_code)
+        print("Respuesta:", respuesta.text)
     respuesta.raise_for_status()
     resultados = respuesta.json()
 
